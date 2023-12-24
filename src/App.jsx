@@ -52,7 +52,7 @@ function App() {
       <Route path="/explore/:mediaType" element={<Explore/>}/>
       <Route path="*" element={<Error/>}/>
    </Routes>
-   {/* <Footer/> */}
+    <Footer/> 
    </BrowserRouter>
   );
 }
